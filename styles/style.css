@@ -1,0 +1,195 @@
+/*
+CSS applies the "box model" to indicate the formatting of a webpage
+A css rule set includes selector and its following declaration.
+A declaration includes a property and a property value.
+PRESS [ctrl+shift+R] to reload .css file on browser
+*/
+
+/* element selector */
+/*
+h1,p,li,a {
+    color: #94070A;
+    width: 500px;
+    border: 1px solid black;
+  }
+*/
+/* selector could also be applied to class, id or attributes */
+
+/* set up font style */
+html {
+  width: 1400px;
+  margin:auto;
+  font-size: 5px;
+  font-family: 'Yantramanav', sans-serif;
+  background-color: floralwhite;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 40px;
+  color: #94070A;
+  font-size: 36px;
+  text-align: left;
+  font-weight: bolder;
+  /*text-shadow: 1.5px 1.5px 1px black;*/
+}
+
+
+p, li, a, button, input, form, option{
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+select, .search_button{
+  padding: 9.5px;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+body {
+  font-size: 20px;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+img {
+  display: block; /* apply margin to the element, or it would be inline */
+  margin: 0 auto; /* auto divide left and right space evenly */
+}
+
+hr {
+  border-top: 1.5px solid #94070A;
+}
+
+table.out {
+  width: 1400px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 20px;
+  color: white;
+  background-color: #94070A;
+  border: 1px solid #000000;
+  padding: 0.5rem;
+}
+
+td {
+  font-size: 20px;
+  border: 1px solid #000000;
+  padding: 0.5rem;  
+}
+
+/* div class */
+.seq {
+  font-family: monospace;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.help {
+  color: #ffffff;
+  display: inline;
+  margin-left: 20px;
+  border: 1px dotted;
+  padding: 0px 3px 0px 3px;
+  float: left;
+}
+
+.title_float_left {
+  font-size: 24px;
+  font-style: italic;
+  float: left;
+  margin-left: 5px;
+  display: inline;
+  padding: 4px 0px 0px 0px;
+  vertical-align: middle;
+}
+
+.title_float_right {
+  float: right;
+  margin-right: 20px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.branch {
+  margin: auto;
+  text-align: center;
+}
+
+.column_title {
+  color: white;
+	background-color: #94070A;
+	padding: 2px 5px 2px 10px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.column_content {
+	padding: 10px 5px 2px 10px;
+}
+
+.column_subtitle {
+	font-style: italic;
+	font-weight: bold;
+	padding-bottom: 2px;
+}
+
+.column_line {
+	text-indent: 30px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+
+.species_name {
+	font-style: italic;
+	display: inline;
+}
+
+.verified {
+  font-weight: bold;
+}
+
+a.smplink:link {
+  font-weight: bold;
+  color:#000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.smplink:visited {
+  font-weight: bold;
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.smplink:hover {
+  font-weight: bold;
+  color: #94070A;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:link {
+  color:#ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
